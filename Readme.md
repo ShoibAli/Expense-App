@@ -19,3 +19,18 @@ The Expense Tracker is a full-stack application that allows users to track their
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Charting**: Chart.js (for visualizations)
+
+## Installation
+
+### Prerequisites
+
+- **Node.js**: Make sure you have [Node.js](https://nodejs.org/en/) installed.
+- **MongoDB**: You need a MongoDB database (either locally or on a cloud service like [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)).
+
+### Backend Setup
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd expense-tracker/backend
+   ```
