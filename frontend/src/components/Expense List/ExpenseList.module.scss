@@ -1,0 +1,98 @@
+.wrapper {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.expenseList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.expenseCard {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.expenseInfo {
+  font-size: 1rem;
+  color: #555;
+
+  span {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+}
+
+.inputField {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+
+  &:focus {
+    border-color: #4caf50;
+  }
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.editButton,
+.deleteButton,
+.saveButton {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editButton {
+  background-color: #1890ff;
+  color: #fff;
+
+  &:hover {
+    background-color: #1677cc;
+  }
+}
+
+.saveButton {
+  background-color: #4caf50;
+  color: white;
+
+  &:hover {
+    background-color: #45a049;
+  }
+}
+
+.deleteButton {
+  background-color: #ff4d4f;
+  color: white;
+
+  &:hover {
+    background-color: #d9363e;
+  }
+}
